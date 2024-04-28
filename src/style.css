@@ -24,14 +24,12 @@ html{
     height: 320px;
     background-color: gray;
     border-radius: 1.2rem;
+    overflow: hidden;
 }
 
 .article img{
-    width: 200px;
-    height: 100px;
-    display: block;
-    margin: 2rem auto;
-    border-radius: 1.2rem;
+    width: 100%;
+    object-fit: cover;
 }
 
 .article h2{
